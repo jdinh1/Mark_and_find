@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/csubRelativeLayout"
+    android:orientation="vertical" >
+
+    <!-- top spacer -->
+    <TextView
+        android:id="@+id/textViewSpacer1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spacer"
+		android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:textSize="10dp" />
+    <!-- csub image -->
+    <ImageView android:id="@+id/csubImageView2"
+		android:contentDescription="@string/desc" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick2"
+        android:clickable="true"
+        android:layout_below="@+id/textViewSpacer1"
+		android:gravity="left"
+        android:src="@drawable/csubpic1" />
+    <!-- spacer to the right -->
+    <TextView
+        android:id="@+id/tV1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  "
+        android:layout_toRightOf="@+id/csubImageView2"
+        android:layout_centerInParent="true"
+        android:textSize="40dp" />
+    <!-- spacer to the right and up -->
+    <TextView
+        android:id="@+id/tV11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  "
+        android:layout_toRightOf="@+id/tV1"
+        android:textSize="25dp" />
+     <!-- text is below the top spacer -->
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick1"
+        android:clickable="true"
+        android:text="@string/csub"
+        android:layout_toRightOf="@+id/tV1"
+        android:layout_below="@+id/tV11"
+        android:textSize="36dp" />
+    
+    <!-- vertical spacer between images -->
+    <TextView
+        android:id="@+id/textViewSpacer2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spacer"
+        android:layout_below="@+id/csubImageView2"
+        android:textSize="10dp" />
+    
+    <!-- image -->
+    <ImageView android:id="@+id/csubImageView4"
+		android:contentDescription="@string/desc" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick4"
+        android:clickable="true"
+        android:src="@drawable/yourplaces1"
+        android:layout_below="@+id/textViewSpacer2"
+		android:gravity="left" />
+    <!-- spacer to right of image -->
+    <TextView
+        android:id="@+id/tV2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  "
+        android:layout_below="@+id/textViewSpacer2"
+        android:layout_toRightOf="@+id/csubImageView4"
+        android:textSize="20dp" />
+    <!-- spacer to right and up -->
+    <TextView
+        android:id="@+id/tV22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  "
+        android:layout_below="@+id/textViewSpacer2"
+        android:layout_toRightOf="@+id/tV2"
+        android:textSize="12dp" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick4"
+        android:clickable="true"
+        android:text="@string/yourplaces"
+		android:layout_toRightOf="@+id/tV2"
+		android:layout_below="@+id/tV22"
+        android:textSize="36dp" />
+    
+    <!-- vertical spacer between images -->
+    <TextView
+        android:id="@+id/textViewSpacer8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spacer"
+        android:layout_below="@+id/csubImageView4"
+        android:textSize="10dp" />
+    
+    <!-- image -->
+    <ImageView android:id="@+id/csubImageView5"
+		android:contentDescription="@string/desc" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick5"
+        android:clickable="true"
+        android:src="@drawable/car9"
+        android:layout_below="@+id/textViewSpacer8"
+		android:gravity="left" />
+    <!-- spacer to right of image -->
+    <TextView
+        android:id="@+id/tV3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  "
+        android:layout_below="@+id/textViewSpacer8"
+        android:layout_toRightOf="@+id/csubImageView5"
+        android:textSize="20dp" />
+    <!-- spacer to right and up -->
+    <TextView
+        android:id="@+id/tV33"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  "
+        android:layout_below="@+id/textViewSpacer8"
+        android:layout_toRightOf="@+id/tV3"
+        android:textSize="12dp" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick5"
+        android:clickable="true"
+        android:text="@string/yourcar"
+		android:layout_toRightOf="@+id/tV3"
+		android:layout_below="@+id/tV33"
+        android:textSize="36dp" />
+
+</RelativeLayout>

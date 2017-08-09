@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="csub">CSUB!</string>
+    <string name="yourplaces">Your Places</string>
+	<string name="yourcar">Your Car</string>
+    <string name="spacer"> </string>
+    <string name="app_name">Mark and Find</string>
+    <string name="desc"> </string>
+    <string name="savebutton">Save this place</string>
+    <string name="button1">List your places</string>
+    <string name="button2">Record this spot</string>
+	<string name="markcar">Mark car\'s position</string>
+	<string name="findcar">Find your car</string>
+    
+</resources>

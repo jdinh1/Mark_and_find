@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="campus_buildings">
+		<item>Administration</item>
+		<item>Admin West</item>
+		<item>Child Care</item>
+		<item>Classroom Bldg</item>
+		<item>F.A.C.T.</item>
+		<item>Performing Arts</item>
+		<item>Fine Arts</item>
+		<item>PlantOperations</item>
+		<item>Rec Center</item>
+		<item>Science I</item>
+		<item>Science II</item>
+		<item>Science III</item>
+		<item>Student Services</item>
+		<item>Swimming Pool</item>
+		<item>Track</item>
+		<item>W. Stiern Library</item>
+		<item>Cafeteria</item>
+		<item>Bookstore</item>
+		<item>Icardo Center</item>
+		<item>Togos</item>
+		<item>Cashier</item>
+		<item>Business Dev</item>
+		<item>Dore Theater</item>
+		<item>Amphitheatre</item>
+		<item>Health Center</item>
+		<item>Campus Police</item>
+		<item>Animals</item>
+		<item>Carl\'s Junior</item>
+		<item>Taco Bell</item>
+		<item>Burger King</item>
+		<item>Subway</item>
+	</string-array>
+    <string-array name="campus_dlatlon">
+		<item>35.350437</item><item>-119.105348</item> <!-- Administration -->
+		<item>35.350497</item><item>-119.106316</item> <!-- Admin West -->
+		<item>35.348889</item><item>-119.107490</item> <!-- Child Care -->
+		<item>35.351216</item><item>-119.105465</item> <!-- Classroom Bldg -->
+		<item>35.345348</item><item>-119.099746</item> <!-- FACT -->
+		<item>35.351011</item><item>-119.104435</item> <!-- Performing Arts -->
+		<item>35.351313</item><item>-119.104998</item> <!-- Fine Arts -->
+		<item>35.349686</item><item>-119.104810</item> <!-- Plant Operations -->
+		<item>35.349154</item><item>-119.101925</item> <!-- Rec Center -->
+		<item>35.349664</item><item>-119.103733</item> <!-- Science I -->
+		<item>35.349637</item><item>-119.103331</item> <!-- Science II -->
+		<item>35.349031</item><item>-119.103751</item> <!-- Science III -->
+		<item>35.350390</item><item>-119.104899</item> <!-- Student Services -->
+		<item>35.347510</item><item>-119.101549</item> <!-- Swimming Pool -->
+		<item>35.344124</item><item>-119.102102</item> <!-- Track -->
+		<item>35.351405</item><item>-119.103109</item> <!-- csub library -->        
+		<item>35.350547</item><item>-119.102297</item> <!-- Cafeteria -->
+		<item>35.349711</item><item>-119.101218</item> <!-- Bookstore -->
+		<item>35.347548</item><item>-119.102987</item> <!-- Icardo Center -->
+		<item>35.349054</item><item>-119.103985</item> <!-- Togos -->
+		<item>35.350525</item><item>-119.104641</item> <!-- Cashier -->
+		<item>35.348970</item><item>-119.105004</item> <!-- Business Dev -->
+		<item>35.352242</item><item>-119.105126</item> <!-- Dore Theater -->
+		<item>35.353551</item><item>-119.102523</item> <!-- Amphitheatre -->
+		<item>35.347838</item><item>-119.103801</item> <!-- Health Center -->
+		<item>35.348786</item><item>-119.102666</item> <!-- Police -->
+		<item>35.350935</item><item>-119.103279</item> <!-- Animals -->
+		<item>35.340160</item><item>-119.104631</item> <!-- Carls Jr -->
+		<item>35.318521</item><item>-119.089809</item> <!-- Taco Bell -->
+		<item>35.354643</item><item>-119.093414</item> <!-- BurgerKing -->
+		<item>35.354913</item><item>-119.092787</item> <!-- Subway -->
+	</string-array>
+</resources>

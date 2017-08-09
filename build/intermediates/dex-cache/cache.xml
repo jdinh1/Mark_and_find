@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Ponism\AndroidStudioProjects\hw2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="1925f28f3cabc69349e53c99f93f3a201d7d8f77">
+        <dex dex="C:\Users\Ponism\AndroidStudioProjects\hw2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_8b3c42aa1f1561f349e6e2eb9ddb230dbb7aa7be\classes.dex" />
+    </item>
+    <item
+        jar="C:\Users\Ponism\AndroidStudioProjects\hw2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="24.0.2"
+        sha1="98e8c187b4d16847d71f04751fa50ca3608d1fe1">
+        <dex dex="C:\Users\Ponism\AndroidStudioProjects\hw2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_f474036b620af772b3e89813e7764bd20cd63a64\classes.dex" />
+    </item>
+
+</items>
